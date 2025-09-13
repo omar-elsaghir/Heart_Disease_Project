@@ -1,0 +1,24 @@
+=========================================
+Final Model Performance Metrics
+=========================================
+
+Model: Tuned Support Vector Machine (SVM)
+Features Used: 10 (Selected by RFE)
+
+--------------------
+Key Metrics:
+--------------------
+Accuracy: 82%
+ROC AUC Score: 0.8984
+
+--------------------
+Classification Report (on Test Set):
+--------------------
+              precision    recall  f1-score   support
+
+           0       0.83      0.73      0.78        82
+           1       0.80      0.88      0.84       102
+
+    accuracy                           0.82       184
+   macro avg       0.82      0.81      0.81       184
+weighted avg       0.82      0.82      0.81       184

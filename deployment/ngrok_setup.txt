@@ -1,0 +1,15 @@
+=========================================
+Deployment Instructions (Ngrok)
+=========================================
+
+1. Make sure the Streamlit app is running.
+   From the project's root directory, run the following command in a terminal:
+   streamlit run ui/app.py
+
+2. Open a SECOND terminal.
+
+3. Start Ngrok to create a public URL for the Streamlit app.
+   Streamlit runs on port 8501 by default.
+   ngrok http 8501
+
+4. Copy the public "Forwarding" URL provided by Ngrok and share it.
